@@ -1,0 +1,17 @@
+.exit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 100px;
+}
+
+.exit button {
+  margin-top: 10px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.exit button a {
+  color: black;
+}

@@ -1,0 +1,35 @@
+.title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: rgb(103, 103, 103);
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.title span {
+  margin-left: 1em;
+  font-size: 25px;
+}
+
+#logout {
+  display: none;
+}
+
+.logout {
+  cursor: pointer;
+  position: absolute;
+  z-index: 100;
+  right: 5px;
+  top: 14px;
+}
+
+.imgtitle img {
+  position: absolute;
+  z-index: 100;
+  width: 30px;
+  height: 30px;
+  right: 40px;
+  top: 15px;
+}

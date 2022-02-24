@@ -1,0 +1,70 @@
+.sidebar {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(149, 147, 147);
+  position: absolute;
+  width: 150px;
+  height: 100%;
+  transition: all 0.2s linear;
+  left: -200px;
+}
+
+#checkbox {
+  display: none;
+}
+
+.menuicon {
+  cursor: pointer;
+  position: absolute;
+  z-index: 100;
+  margin: 5px 5px;
+}
+
+.img {
+  padding-top: 15px;
+  background-color: rgb(149, 147, 147);
+  background-position: center;
+  background-size: cover;
+}
+
+.img img {
+  border-radius: 10px;
+  display: block;
+  margin: auto;
+  width: 50px;
+  height: 50px;
+  box-shadow: solid black 5px;
+  padding-bottom: 4px;
+}
+
+.barra {
+  width: 100%;
+  position: absolute;
+  top: 80px;
+}
+
+.barra a {
+  display: block;
+  padding: 12px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  transition: ease-in-out 0.4s;
+  cursor: pointer;
+  background-color: rgb(188, 188, 188);
+  border-bottom: 2px solid rgb(149, 147, 147);
+  color: black;
+}
+
+.barra a svg {
+  margin-right: 0.3em;
+}
+
+.barra a:hover {
+  background-color: rgba(76, 76, 76, 0.456);
+  color: white;
+}
+
+#checkbox:checked ~ .sidebar {
+  transform: translateX(200px);
+}
